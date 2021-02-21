@@ -26,6 +26,7 @@ I have had experience using Raspberry Pis and Arduinos but was introduced to the
  -  WebSocket is used to do bi-directional communication between the ESP to the Node server.
  - The website will received relayed real-time data using another WebSocket connection but commands from the website are sent to the Node server using an HTTP RestAPI instead.  I find this easier to test and debug using tools like Postman or browser.
  
+![Seq-Diagram-1](https://github.com/hujanais/roombie/blob/main/seq1.png?raw=true)
  #####  Example of data/command flow
  ``` mermaid
 	 sequenceDiagram
@@ -39,6 +40,7 @@ I have had experience using Raspberry Pis and Arduinos but was introduced to the
 #### Example of waking roomba up.
 Even though the Roomba will go to sleep after 5 minutes of inactivity, the ESP controller is still connected to the NodeJS server via websocket.  This gives us a nice way to wake the Roomba up remotely.
  
+ ![Seq-Diagram-2](https://github.com/hujanais/roombie/blob/main/seq2.png?raw=true)
  ``` mermaid
 	 sequenceDiagram
 	  Web ->> NodeJS: Send HTTP Wakeup command
