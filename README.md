@@ -56,9 +56,10 @@ A very import criteria of this project is to not make it so overwhelming that it
 
 ### Show me the code. Github.
 I am very pleased that my son spent 2 solid days to build up the web dashboard using React and it has been working beautifully.  We did most of our work debugging our work using a RaspberryPi to host the NodeJS and React servers and then when we are all happy, we deployed them to Heroku and Vercel and grandparents can see and play with the Roomba.  Main goal accomplished!
-[ESP-Roomba C++ code](https://github.com/hujanais/roombie-esp8266)
-[Web Dashboard React](https://github.com/pillious/roombaUI) [Written by my son Andrew who is a senior in high school]
-[NodeJS-Express server](https://github.com/hujanais/roombie-nodejs) [This is just a very simple quick and dirty server to get going]
+
+ - [ESP-Roomba C++ code](https://github.com/hujanais/roombie-esp8266)
+ - [Web Dashboard React](https://github.com/pillious/roombaUI) [Written by my son Andrew who is a senior in high school]
+ - [NodeJS-Express server](https://github.com/hujanais/roombie-nodejs) [This is just a very simple quick and dirty server to get going]
 
 The NodeJS server is deployed on Heroku and the React dashboard is hosted on Vercel.  
 
