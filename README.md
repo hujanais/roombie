@@ -51,7 +51,7 @@ Even though the Roomba will go to sleep after 5 minutes of inactivity, the ESP c
 ```
 
 #### ESP-8266 to Roomba Schematic
-[Picture]
+<img src="https://github.com/hujanais/roombie/blob/main/schematic.PNG" width="200" height="150">
  
 ### Coding goals
 A very import criteria of this project is to not make it so overwhelming that it is not fun for my kids.  Therefore, I embarked on some extra effort of wrap a lot of the Roomba and Websocket code into a re-usable classes.  Ok, I am very rusty on C++ and have used it only on basic ESP/Arduino coding so it took me a while to get my sea legs back on that.  I think I did accomplish that well and my teens can just spend time with working on the logical programming of the Roomba.  You can see a few references that I have listed below that have been instrumental to getting this project off the ground. 
