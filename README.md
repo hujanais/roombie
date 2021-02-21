@@ -1,4 +1,5 @@
 
+
 # Roomba on the Internet
 ### Overview
 I have been a weekly user of a Roomba for the past 15 years and absolutely love it on my hardwood floors.  I even bought one for my parents who also use it perhaps once every 2-3 weeks.  Anyhow, recently I found this old semi-functional Roomba in my basement and thought that it could be fun to use it in some kind project.  
@@ -13,15 +14,16 @@ By now, we have figured out that yes the Roomba can be "hacked" and we could do 
  4. Ok, nothing is really novel and have been done by folks in various format but I like this idea so that my kids can also be highly involved with.
  5. Have a software playground where my daughter can work with the Roomba such as writing the docking procedure, navigating from 1 room to another, fun stuff like that.
 
-### Pictures
-
 ### Design
 Ok, even though the work is supposed to be a collaboration of 1 adult and 2 teens, it obviously ended up with 90% of the work on my end but most of it is just the R&D work and re-usable code that would be too much for them.  They did help build the electronics, write some C++ code and write the website for the project which I am very proud of their work on that.  
+
+### The Big Picture
+Ok, here is the 10000m view of the deployment.
+![alt text](https://github.com/hujanais/roombie/blob/main/deployment.PNG)
 
 ### Technical
 I have had experience using Raspberry Pis and Arduinos but was introduced to the ESP microcontroller from a friend and it is truly amazing especially it is easily available for $4!  
 
-#### The Big Picture
 [Picture]
  -  WebSocket is used to do bi-directional communication between the ESP to the Node server.
  - The website will received relayed real-time data using another WebSocket connection but commands from the website are sent to the Node server using an HTTP RestAPI instead.  I find this easier to test and debug using tools like Postman or browser.
