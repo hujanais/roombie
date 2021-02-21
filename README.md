@@ -20,6 +20,7 @@ Ok, even though the work is supposed to be a collaboration of 1 adult and 2 teen
 ### The Big Picture
 Ok, here is the 10000m view of the deployment.
 ![alt text](https://github.com/hujanais/roombie/blob/main/deployment.PNG)
+| ![alt text](https://github.com/hujanais/roombie/blob/main/deployment.PNG) |![alt text](https://github.com/hujanais/roombie/blob/main/react-dashboard.PNG)  |
 
 ### Technical
 I have had experience using Raspberry Pis and Arduinos but was introduced to the ESP microcontroller from a friend and it is truly amazing especially it is easily available for $4!  
