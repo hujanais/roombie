@@ -21,7 +21,7 @@ Ok, even though the work is supposed to be a collaboration of 1 adult and 2 teen
 Ok, here is the 10000m view of the deployment.
 ![alt text](https://github.com/hujanais/roombie/blob/main/deployment.PNG)
 The React dashboard
-![alt text](https://github.com/hujanais/roombie/blob/main/roomba-1.PNG)
+![alt text](https://github.com/hujanais/roombie/blob/main/roomba-1.jpg)
 The ESP, Roomba and a USB powerpack so we can run the Roomba untethered.
 ![alt text](https://github.com/hujanais/roombie/blob/main/deployment.PNG)
 
