@@ -21,9 +21,9 @@ Ok, even though the work is supposed to be a collaboration of 1 adult and 2 teen
 Ok, here is the 10000m view of the deployment.
 ![alt text](https://github.com/hujanais/roombie/blob/main/deployment.PNG)
 The React dashboard
-![alt text](https://github.com/hujanais/roombie/blob/main/roomba-1.jpg)
+<img src="https://github.com/hujanais/roombie/blob/main/react-dashboard.PNG" width="350" height="250"/>
 The ESP, Roomba and a USB powerpack so we can run the Roomba untethered.
-![alt text](https://github.com/hujanais/roombie/blob/main/deployment.PNG)
+<img src="https://github.com/hujanais/roombie/blob/main/roomba-1.JPG" width="350" height="250"/>
 
 ### Technical
 I have had experience using Raspberry Pis and Arduinos but was introduced to the ESP microcontroller from a friend and it is truly amazing especially it is easily available for $4!  
